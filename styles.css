@@ -1,1 +1,35 @@
 /* your code */
+table{
+    border: 2px solid rgb(45, 35, 233);
+    border-radius: 50%;
+    border-collapse: collapse;
+}
+
+th,td{
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(45, 35, 233);
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+}
+
+td{
+    font-size:15px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aquamarine;
+}
+
+tr:nth-child(2n){
+    background-color: antiquewhite;
+}
+
+tr:nth-child(2n-1){
+    background-color: darkgrey;
+}
